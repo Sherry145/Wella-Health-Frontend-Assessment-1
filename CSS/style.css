@@ -1,0 +1,420 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+
+}
+.navbar {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.02);
+    background-color: white;
+    padding-right: 5px;
+    
+}
+nav {
+    width: 100%;
+    overflow: auto;
+    
+}
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    margin: 0 0 0 214px;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.logo-1 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+nav a {
+    /* width: 130px; */
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+nav a:hover {
+    background: #000000;
+    color: #ffffff;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+.btn1 {
+    background-color: white;
+    padding: 3px;
+    cursor: pointer;
+    width: 75px;
+    height: 40px;
+    font-weight: 200px;
+    margin-top: 10px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    border-radius: 4px; 
+}
+.btn2 {
+    height: 40px;
+    padding: 0 15px;
+    font-weight: 200;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-style: normal;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    background-color: #000000;
+    color: #ffff 
+}
+.container {
+    margin: 0px 40px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.container,h2 + p {
+    font-size: 30px;
+}
+
+.content {
+    margin-top: 128px;
+}
+.house-right-holder > img {
+    width: 100%;
+    object-fit: cover;
+}
+.brs {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 71px;
+    width: 87%;
+}
+
+.press {
+    background-color: black;
+    color: white;
+    padding: 0 25px;
+    cursor: pointer;
+    margin: 40px 0;
+    width: 160px;
+    height: 40px;
+    font-style: normal;
+    font-size: bold;
+    line-height: 18px;
+}
+h6 {
+    text-align: center; 
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.trusted-text {
+    font-family: 'Benton Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #666666;
+}
+.logo-2 {
+    text-align: center;
+    padding: 14px 16px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.logo-2 a {
+    text-align: center;
+    padding: 14px 16px;
+}
+.heading-2 > h2 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.client-quotes {
+    color: #ffffff;
+    padding: 44px 0;
+    background: #141414;
+    text-align: center;
+}
+.client-quotes > p {
+    font-family: 'Benton Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.qoute-name {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.heading > h2 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 58% 38%;
+    background-color: black;
+    padding: 71px 100px;
+    column-gap: 2%;
+    margin-left: 81px;
+    margin-right: 81px;
+
+  }
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* padding: 50px 20px; */
+    text-align: center;
+    margin-bottom: 5px;
+  }
+.box {
+    border-right: 2px solid rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+    
+}
+.area-council_holder {
+    text-align: left;
+}
+.area-council_holder > p {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32.5996px;
+    line-height: 49px;
+    color: #EEF9FF;
+    text-align: left;
+    margin-bottom: 0;
+}
+.area-council_holder > h5 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52.1594px;
+    line-height: 78px;
+    color: #E4F1F8;
+    text-align: left;
+}
+
+.area-council_holder > h6 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32.5996px;
+    line-height: 49px;
+    color: #EEF9FF;
+    text-align: left;
+
+}
+.reviews {
+    margin-top: 50px;
+}
+.reviews > h3 {
+    text-align: left;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 22.8648px;
+    line-height: 34px;
+    color: #EEF9FF;
+}
+.box2 {
+   color: #ffffff;
+    
+}
+.number-of-customers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.customers-count > h3 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.7705px;
+    line-height: 40px;
+    color: #E4F1F8;
+}
+.customers-count > p {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16.7316px;
+    line-height: 25px;
+    color: #EEF9FF;
+}
+.years-in-business > h3 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.7705px;
+    line-height: 40px;
+    color: #E4F1F8;
+}
+.years-in-business > p {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16.7316px;
+    line-height: 25px;
+    color: #EEF9FF;
+}
+.population-count {
+    text-align: left;
+    margin-left: 72px;
+}
+.population-count > p {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 22.8648px;
+    line-height: 34px;
+    color: #EEF9FF;
+}
+.population-count > h5 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36.5837px;
+    line-height: 55px;
+    color: #E4F1F8;
+}.population-count > h6 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 22.8648px;
+    line-height: 34px;
+    color: #EEF9FF;
+    text-align: left;
+}
+.property-steps-header > h1 {
+    margin: 150px 0 30px 0;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61.0633px;
+    line-height: 61px;
+    align-items: center;
+    text-align: center;
+    color: #141414;
+}
+.logo-3 {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 24px;
+  }
+.heading-2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.container-colomn-3 {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    margin: 3% 5% 5% 5%;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #E50914;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    /* padding-top: 8px; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 70px;
+    margin-left: 180px; */
+}
+.circle > h1 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+h1, p {
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-top: 20%;
+    margin-left: 10%;
+    text-align: center; */
+}  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer-flex {
+    background: #FBFBFB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+.copyright{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    color: #000000
+}
+.footer-contacts > span {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.footer-contacts > span:first-child {
+    margin-right: 15px;
+}
+
+
+
+
+ 
+ 
+ 
